@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bluuuuer/Project/Opencv/partition
+CMAKE_SOURCE_DIR = /home/bluuuuer/Project/Opencv/regiongrowth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bluuuuer/Project/Opencv/partition
+CMAKE_BINARY_DIR = /home/bluuuuer/Project/Opencv/regiongrowth
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RegionGrowth.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/RegionGrowth.dir/flags.make
 
 CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o: CMakeFiles/RegionGrowth.dir/flags.make
 CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o: regiongrowth.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bluuuuer/Project/Opencv/partition/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bluuuuer/Project/Opencv/regiongrowth/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o -c /home/bluuuuer/Project/Opencv/partition/regiongrowth.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o -c /home/bluuuuer/Project/Opencv/regiongrowth/regiongrowth.cpp
 
 CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bluuuuer/Project/Opencv/partition/regiongrowth.cpp > CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bluuuuer/Project/Opencv/regiongrowth/regiongrowth.cpp > CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.i
 
 CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bluuuuer/Project/Opencv/partition/regiongrowth.cpp -o CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bluuuuer/Project/Opencv/regiongrowth/regiongrowth.cpp -o CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.s
 
 CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o.requires:
 .PHONY : CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o.requires
@@ -124,6 +124,6 @@ CMakeFiles/RegionGrowth.dir/clean:
 .PHONY : CMakeFiles/RegionGrowth.dir/clean
 
 CMakeFiles/RegionGrowth.dir/depend:
-	cd /home/bluuuuer/Project/Opencv/partition && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bluuuuer/Project/Opencv/partition /home/bluuuuer/Project/Opencv/partition /home/bluuuuer/Project/Opencv/partition /home/bluuuuer/Project/Opencv/partition /home/bluuuuer/Project/Opencv/partition/CMakeFiles/RegionGrowth.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/bluuuuer/Project/Opencv/regiongrowth && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bluuuuer/Project/Opencv/regiongrowth /home/bluuuuer/Project/Opencv/regiongrowth /home/bluuuuer/Project/Opencv/regiongrowth /home/bluuuuer/Project/Opencv/regiongrowth /home/bluuuuer/Project/Opencv/regiongrowth/CMakeFiles/RegionGrowth.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RegionGrowth.dir/depend
 

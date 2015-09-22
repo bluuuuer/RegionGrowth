@@ -47,10 +47,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bluuuuer/Project/Opencv/partition
+CMAKE_SOURCE_DIR = /home/bluuuuer/Project/Opencv/regiongrowth
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bluuuuer/Project/Opencv/partition
+CMAKE_BINARY_DIR = /home/bluuuuer/Project/Opencv/regiongrowth
 
 #=============================================================================
 # Target rules for target CMakeFiles/RegionGrowth.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/bluuuuer/Project/Opencv/partition
 CMakeFiles/RegionGrowth.dir/all:
 	$(MAKE) -f CMakeFiles/RegionGrowth.dir/build.make CMakeFiles/RegionGrowth.dir/depend
 	$(MAKE) -f CMakeFiles/RegionGrowth.dir/build.make CMakeFiles/RegionGrowth.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/bluuuuer/Project/Opencv/partition/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/bluuuuer/Project/Opencv/regiongrowth/CMakeFiles  1
 	@echo "Built target RegionGrowth"
 .PHONY : CMakeFiles/RegionGrowth.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/RegionGrowth.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/RegionGrowth.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bluuuuer/Project/Opencv/partition/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bluuuuer/Project/Opencv/regiongrowth/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/RegionGrowth.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/bluuuuer/Project/Opencv/partition/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bluuuuer/Project/Opencv/regiongrowth/CMakeFiles 0
 .PHONY : CMakeFiles/RegionGrowth.dir/rule
 
 # Convenience name for target.

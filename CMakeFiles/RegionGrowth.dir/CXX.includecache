@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/bluuuuer/Project/Opencv/partition/regiongrowth.cpp
+/home/bluuuuer/Project/Opencv/regiongrowth/regiongrowth.cpp
 stdio.h
 -
 opencv2/opencv.hpp
