@@ -6,9 +6,23 @@
 
 #IncludeRegexTransform: 
 
+/home/bluuuuer/Project/Opencv/regiongrowth/Region.cpp
+Region.h
+/home/bluuuuer/Project/Opencv/regiongrowth/Region.h
+
+/home/bluuuuer/Project/Opencv/regiongrowth/Region.h
+stdio.h
+-
+opencv2/opencv.hpp
+-
+
 /home/bluuuuer/Project/Opencv/regiongrowth/regiongrowth.cpp
 stdio.h
 -
 opencv2/opencv.hpp
 -
+Region.h
+/home/bluuuuer/Project/Opencv/regiongrowth/Region.h
+Region.cpp
+/home/bluuuuer/Project/Opencv/regiongrowth/Region.cpp
 

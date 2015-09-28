@@ -1,11 +1,13 @@
 #include "Region.h"
 
+using namespace cv;
+
 XRegion::XRegion(char * filename,char * s){
-    this.image = imread(filename);
-    this.result = Mat::zeros(image.rows,image.cols,image.type());
-    this.visit = Mat::zeros(image.rows,image.cols,CV_8UC1);
-    this.s0 = atof(s);
-    this.idex = 1;
+    image = imread(filename);
+    result = Mat::zeros(image.rows,image.cols,image.type());
+    visit = Mat::zeros(image.rows,image.cols,CV_8UC1);
+    s0 = atof(s);
+    idex = 1;
 }
 
 XRegion::~XRegion(){
@@ -22,10 +24,9 @@ Mat XRegion::RegionG(){
         Mat_<Vec3b>::iterator it = image.begin<Vec3b>();
         Mat_<Vec3b>::iterator itend = image.end<Vec3b>();
         Mat_<uchar>::iterator vi = visit.begin<uchar>();
-        Mat_<Vec3b>::iterator itout = result.begin<Vec3b>();
         int sum[3] = {0,0,0};
         int count = 0;
-        for(;it!=itend;it++,itout++,vi++){
+        for(;it!=itend;it++,vi++){
             if(*vi == i){
                 sum[0] += (*it)[0];
                 sum[1] += (*it)[1];
@@ -37,9 +38,8 @@ Mat XRegion::RegionG(){
         sum[1] /= count;
         sum[2] /= count;
 
-        Mat_<Vec3b>::iterator it = image.begin<Vec3b>();
-        Mat_<Vec3b>::iterator itend = image.end<Vec3b>();
-        Mat_<uchar>::iterator vi = visit.begin<uchar>();
+        it = image.begin<Vec3b>();
+        vi = visit.begin<uchar>();
         Mat_<Vec3b>::iterator itout = result.begin<Vec3b>();
         for(;it!=itend;it++,itout++,vi++){
             if(*vi == i){
@@ -68,4 +68,5 @@ void XRegion::RegionG8(int j,int i){
 }
 
 float XRegion::Variance(int j,int i){
+    return 0.0;
 }
