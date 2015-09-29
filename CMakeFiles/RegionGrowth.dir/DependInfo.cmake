@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bluuuuer/Project/Opencv/regiongrowth/regiongrowth.cpp" "/home/bluuuuer/Project/Opencv/regiongrowth/CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o"
+  "/home/bluuuuer/Project/Opencv/regiongrowth/main.cpp" "/home/bluuuuer/Project/Opencv/regiongrowth/CMakeFiles/RegionGrowth.dir/main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

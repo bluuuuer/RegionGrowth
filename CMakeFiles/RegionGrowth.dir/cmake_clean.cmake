@@ -1,5 +1,5 @@
 FILE(REMOVE_RECURSE
-  "CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o"
+  "CMakeFiles/RegionGrowth.dir/main.cpp.o"
   "RegionGrowth.pdb"
   "RegionGrowth"
 )

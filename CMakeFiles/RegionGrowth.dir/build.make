@@ -49,37 +49,37 @@ include CMakeFiles/RegionGrowth.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/RegionGrowth.dir/flags.make
 
-CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o: CMakeFiles/RegionGrowth.dir/flags.make
-CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o: regiongrowth.cpp
+CMakeFiles/RegionGrowth.dir/main.cpp.o: CMakeFiles/RegionGrowth.dir/flags.make
+CMakeFiles/RegionGrowth.dir/main.cpp.o: main.cpp
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/bluuuuer/Project/Opencv/regiongrowth/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o -c /home/bluuuuer/Project/Opencv/regiongrowth/regiongrowth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/RegionGrowth.dir/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/RegionGrowth.dir/main.cpp.o -c /home/bluuuuer/Project/Opencv/regiongrowth/main.cpp
 
-CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bluuuuer/Project/Opencv/regiongrowth/regiongrowth.cpp > CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.i
+CMakeFiles/RegionGrowth.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RegionGrowth.dir/main.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/bluuuuer/Project/Opencv/regiongrowth/main.cpp > CMakeFiles/RegionGrowth.dir/main.cpp.i
 
-CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bluuuuer/Project/Opencv/regiongrowth/regiongrowth.cpp -o CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.s
+CMakeFiles/RegionGrowth.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RegionGrowth.dir/main.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/bluuuuer/Project/Opencv/regiongrowth/main.cpp -o CMakeFiles/RegionGrowth.dir/main.cpp.s
 
-CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o.requires:
-.PHONY : CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o.requires
+CMakeFiles/RegionGrowth.dir/main.cpp.o.requires:
+.PHONY : CMakeFiles/RegionGrowth.dir/main.cpp.o.requires
 
-CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o.provides: CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o.requires
-	$(MAKE) -f CMakeFiles/RegionGrowth.dir/build.make CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o.provides.build
-.PHONY : CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o.provides
+CMakeFiles/RegionGrowth.dir/main.cpp.o.provides: CMakeFiles/RegionGrowth.dir/main.cpp.o.requires
+	$(MAKE) -f CMakeFiles/RegionGrowth.dir/build.make CMakeFiles/RegionGrowth.dir/main.cpp.o.provides.build
+.PHONY : CMakeFiles/RegionGrowth.dir/main.cpp.o.provides
 
-CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o.provides.build: CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o
+CMakeFiles/RegionGrowth.dir/main.cpp.o.provides.build: CMakeFiles/RegionGrowth.dir/main.cpp.o
 
 # Object files for target RegionGrowth
 RegionGrowth_OBJECTS = \
-"CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o"
+"CMakeFiles/RegionGrowth.dir/main.cpp.o"
 
 # External object files for target RegionGrowth
 RegionGrowth_EXTERNAL_OBJECTS =
 
-RegionGrowth: CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o
+RegionGrowth: CMakeFiles/RegionGrowth.dir/main.cpp.o
 RegionGrowth: CMakeFiles/RegionGrowth.dir/build.make
 RegionGrowth: /usr/local/lib/libopencv_videostab.so.3.0.0
 RegionGrowth: /usr/local/lib/libopencv_videoio.so.3.0.0
@@ -116,7 +116,7 @@ RegionGrowth: CMakeFiles/RegionGrowth.dir/link.txt
 CMakeFiles/RegionGrowth.dir/build: RegionGrowth
 .PHONY : CMakeFiles/RegionGrowth.dir/build
 
-CMakeFiles/RegionGrowth.dir/requires: CMakeFiles/RegionGrowth.dir/regiongrowth.cpp.o.requires
+CMakeFiles/RegionGrowth.dir/requires: CMakeFiles/RegionGrowth.dir/main.cpp.o.requires
 .PHONY : CMakeFiles/RegionGrowth.dir/requires
 
 CMakeFiles/RegionGrowth.dir/clean:

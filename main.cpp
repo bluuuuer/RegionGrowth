@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <opencv2/opencv.hpp>
-#include "Region.h"
-#include "Region.cpp"
+#include "XRegion.h"
+#include "XRegion.cpp"
 
 using namespace cv;
 using namespace std;

@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 project(RegionGrowth)
 find_package(OpenCV REQUIRED)
-add_executable(RegionGrowth regiongrowth.cpp)
+add_executable(RegionGrowth main.cpp)
 target_link_libraries(RegionGrowth ${OpenCV_LIBS})
+set(CMAKE_BUILD_TYPE Debug)

@@ -6,7 +6,7 @@ using namespace cv;
 
 class XRegion{
 public:
-    XRegion(char * filename,char * s);
+    XRegion(char* filename,char* s);
     ~XRegion();
     Mat RegionG();
 private:
